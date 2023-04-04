@@ -19,8 +19,26 @@ stops.remove("Livingston")
 
 
 #6. Delete "Cumbernauld" from the list by index
+
+del stops[2]
+
 #7. Print the number of stops there are in the list
+
+stops_length = len(stops)
+#print(stops_length)
+
 #8. Sort the list alphabetically
+
+stops.sort()
+#print(stops)
+
 #9. Reverse the positions of the stops in the list
+
+stops.sort(reverse=True)
+#print(stops)
+
 #10 Print out all the stops using a for loop
+
+for stop in stops:
+    print(stop)
 
