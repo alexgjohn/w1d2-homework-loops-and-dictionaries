@@ -84,7 +84,10 @@ users = {
 # print(users["Erik"]["home_town"])
 
 # 9. Add a pet dog to Erik called "fluffy"
+# users["Erik"]["pets"].append({"name" : "fluffy"})
+# users["Erik"]["pets"].append({"species" : "dog"})
+# print(users["Erik"]["pets"])
 
 # 10. Add another person to the users dictionary
-users["name" : "Daniel"]
-print(users)
+# users["Daniel"] = {}
+# print(users)
