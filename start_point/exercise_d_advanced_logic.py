@@ -24,6 +24,14 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+# total_of_numbers = 0
+# ignore_start = numbers.index(6)
+# ignore_end = numbers.index(7) + 1
+# new_numbers = numbers[:ignore_start] + numbers[ignore_end:]
+# for new_number in new_numbers:
+#     total_of_numbers = total_of_numbers + new_number
+
+# print(total_of_numbers)
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
