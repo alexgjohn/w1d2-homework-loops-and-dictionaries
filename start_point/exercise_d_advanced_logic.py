@@ -52,12 +52,12 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 #         continue
 #     print(num)
 
-sum_of_numbers = 1
+sum_of_numbers = 0
 for i, num in enumerate(numbers):
     if num == 13 or (i > 0 and numbers[i-1] == 13) or (i < len(numbers)-1 and numbers[i+1] == 13):
-        sum_of_numbers = sum_of_numbers * num
+        sum_of_numbers = sum_of_numbers + num
         continue
-    print(sum_of_numbers)
+print(sum_of_numbers)
 
 #the above isn't exactly it, i know, but i'm happy i got that far!
 
